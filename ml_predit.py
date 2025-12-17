@@ -28,7 +28,7 @@ class MaizeETCPredictor:
             das_start, das_end = 25, 55
         elif 55 <= das < 95:
             kc_start, kc_end = 1.15, 1.20
-            das_start, das_end = 55, 95
+            das_start, das_end = 55, 90
         elif 95 <= das <= 120:
             kc_start, kc_end = 0.70, 0.35
             das_start, das_end = 95, 120
